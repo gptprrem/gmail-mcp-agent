@@ -1,0 +1,23 @@
+{
+  "name": "gmail-mcp-agent",
+  "version": "1.0.0",
+  "private": false,
+  "description": "Gmail SMTP MCP server with Claude/Cursor/Copilot agent skills, rules, and commands",
+  "type": "module",
+  "main": "index.js",
+  "bin": {
+    "gmail-mcp": "index.js"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "check-env": "node scripts/check-env.js"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.17.0",
+    "nodemailer": "^10.1.0",
+    "zod": "^3.25.0"
+  }
+}

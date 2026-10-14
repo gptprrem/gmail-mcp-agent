@@ -1,0 +1,11 @@
+---
+description: Gmail MCP safety rules
+globs:
+alwaysApply: true
+---
+
+# Gmail MCP
+
+- Use only the `send_email` MCP tool for mail.
+- Never echo `GMAIL_APP_PASSWORD`.
+- Prefer short plain-text bodies.
